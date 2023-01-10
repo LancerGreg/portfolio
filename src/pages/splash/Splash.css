@@ -21,33 +21,29 @@ body {
 }
 
 .screen {
-  /* background-color: #55198b; */
   overflow: hidden;
-  border-radius: 100%;
-  animation: grow 5.5s forwards;
+
+  -webkit-animation: hide-screen 2s linear forwards 6.5s;
+  -o-animation: hide-screen 2s linear forwards 6.5s;
+  -moz-animation: hide-screen 2s linear forwards 6.5s;
+  animation: hide-screen 2s linear forwards 6.5s;
 }
 
-@keyframes grow {
-  0% {
-    transform: scale(0);
-  }
-  10% {
-    transform: scale(1);
-    border-radius: 0%;
-    height: 100%;
-    width: 100%;
-  }
-  90% {
-    transform: scale(1);
-    border-radius: 0%;
-    height: 100%;
-    width: 100%;
-  }
-  100% {
-    transform: scale(0);
-    transform-origin: 50% 50%;
-    border-radius: 100%;
-  }
+.screen span.shared {
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
+}
+
+.screen span.shared {
+  position: absolute;
+  bottom: 5px;
+  color: #fff;
+
+  -webkit-animation: show-shared 6s linear forwards;
+  -o-animation: show-shared 6s linear forwards;
+  -moz-animation: show-shared 6s linear forwards;
+  animation: show-shared 6s linear forwards;
 }
 
 #logo {
@@ -55,4 +51,36 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@keyframes hide-screen {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes show-shared {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

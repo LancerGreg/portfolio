@@ -8,6 +8,8 @@ function AnimatedSplash(props) {
     <div className="logo_wrapper">
       <div className="screen" style={{ backgroundColor: props.theme.splashBg }}>
         <LoaderLogo id="logo" theme={props.theme} />
+        
+        <span class="shared">developed by <a href="https://ashutoshhathidara.com">MasterPortfolio</a> temp</span>
       </div>
     </div>
   );
@@ -22,7 +24,7 @@ class Splash extends Component {
   }
 
   componentDidMount() {
-    this.id = setTimeout(() => this.setState({ redirect: true }), 100000500);
+    this.id = setTimeout(() => this.setState({ redirect: true }), 7500);
   }
 
   componentWillMount() {
