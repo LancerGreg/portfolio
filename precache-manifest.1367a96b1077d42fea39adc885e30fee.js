@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3626e12ab13b8628e61388a26aeb7782",
+    "revision": "43cde27b27d96e56934e211f0604ea1d",
     "url": "/vrgreg.github.io/index.html"
   },
   {
-    "revision": "b19e9f022eca63925d7f",
+    "revision": "9a7a39a582367ad467d4",
     "url": "/vrgreg.github.io/static/css/main.db2f4412.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vrgreg.github.io/static/js/2.06e8a111.chunk.js"
   },
   {
-    "revision": "b19e9f022eca63925d7f",
-    "url": "/vrgreg.github.io/static/js/main.720903f1.chunk.js"
+    "revision": "9a7a39a582367ad467d4",
+    "url": "/vrgreg.github.io/static/js/main.bb6bac78.chunk.js"
   },
   {
     "revision": "8571a54435deddeafe74",
