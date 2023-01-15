@@ -42,12 +42,6 @@ export default class Main extends Component {
                 )}
               />
               <Route
-                path="/opensource"
-                render={(props) => (
-                  <Opensource {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
                 path="/contact"
                 render={(props) => (
                   <Contact {...props} theme={this.props.theme} />
@@ -57,12 +51,6 @@ export default class Main extends Component {
                 path="/splash"
                 render={(props) => (
                   <Splash {...props} theme={this.props.theme} />
-                )}
-              />
-              <Route
-                path="/projects"
-                render={(props) => (
-                  <Projects {...props} theme={this.props.theme} />
                 )}
               />
               <Route
