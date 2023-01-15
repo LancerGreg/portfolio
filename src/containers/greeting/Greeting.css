@@ -2,7 +2,6 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
 }
 .greet-main {
   width: 90%;
@@ -23,7 +22,6 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
 }
 .button-greeting-div {
   display: flex;
@@ -53,6 +51,29 @@
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+}
+
+img.gif-fill-proud {
+  position: relative;
+  width: 100%;  
+  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  animation: rotate-fill-proud 7s linear infinite;
+  -webkit-animation: rotate-fill-proud 7s linear infinite;
+  -o-animation: rotate-fill-proud 7s linear infinite;
+  -moz-animation: rotate-fill-proud 7s linear infinite;
+}
+
+@keyframes rotate-fill-proud {
+  0% { clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+  11.11% { clip-path: polygon(20% 10%, 50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%); }
+  22.22% { clip-path: polygon(0% 35%, 20% 10%, 50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%); }
+  33.33% { clip-path: polygon(0% 70%, 0% 35%, 20% 10%, 50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%); }
+  44.44% { clip-path: polygon(20% 90%, 0% 70%, 0% 35%, 20% 10%, 50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%); }
+  55.55% { clip-path: polygon(50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%, 50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%); }
+  66.66% { clip-path: polygon(100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%, 50% 0%, 80% 10%, 100% 35%); }
+  77.77% { clip-path: polygon(100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%, 50% 0%, 80% 10%); }
+  88.88% { clip-path: polygon(80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%, 50% 0%); }
+  100% { clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
 }
 
 /* Media Query */
@@ -85,11 +106,5 @@
   }
   .greeting-main {
     display: block;
-  }
-
-  .portfolio-repo-btn-div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
   }
 }

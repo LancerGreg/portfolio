@@ -8,13 +8,6 @@ class SoftwareSkill extends React.Component {
       <div>
         <div className="software-skills-main-div">
           <ul className="dev-icons">
-            {/* {skillsSection.softwareSkills.map(skills => {
-            return (
-              <li className="software-skill-inline" name={skills.skillName}>
-                <i className={skills.fontAwesomeClassname}></i>
-              </li>
-            );
-          })} */}
             {this.props.logos.map((logo) => {
               return (
                 <OverlayTrigger
@@ -32,7 +25,7 @@ class SoftwareSkill extends React.Component {
                       data-icon={logo.fontAwesomeClassname}
                       style={logo.style}
                       data-inline="false"
-                    ></span>
+                    ><img src={logo.img === undefined ? "" : require(`../../assests/images/${logo.img}.png`)} /></span>                    
                   </li>
                 </OverlayTrigger>
               );
