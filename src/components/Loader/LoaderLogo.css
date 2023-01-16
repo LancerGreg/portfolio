@@ -12,10 +12,10 @@ svg.svg-loader {
 
 svg.svg-loader text.svg-loader__logo {
   text-transform: uppercase;
-  -webkit-animation: loader-stroke 6s linear forwards;
-  -o-animation: loader-stroke 6s linear forwards;
-  -moz-animation: loader-stroke 6s linear forwards;
-  animation: loader-stroke 6s linear forwards;
+  -webkit-animation: loader-stroke 3s linear forwards;
+  -o-animation: loader-stroke 3s linear forwards;
+  -moz-animation: loader-stroke 3s linear forwards;
+  animation: loader-stroke 3s linear forwards;
   stroke-width: 2;
   stroke: #365fa0;
   font-size: 140px;

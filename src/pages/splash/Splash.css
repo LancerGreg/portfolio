@@ -23,10 +23,10 @@ body {
 .screen {
   overflow: hidden;
 
-  -webkit-animation: hide-screen 2s linear forwards 6.5s;
-  -o-animation: hide-screen 2s linear forwards 6.5s;
-  -moz-animation: hide-screen 2s linear forwards 6.5s;
-  animation: hide-screen 2s linear forwards 6.5s;
+  -webkit-animation: hide-screen 1s linear forwards 3.5s;
+  -o-animation: hide-screen 1s linear forwards 3.5s;
+  -moz-animation: hide-screen 1s linear forwards 3.5s;
+  animation: hide-screen 1s linear forwards 3.5s;
 }
 
 .screen span.shared {
@@ -40,10 +40,10 @@ body {
   bottom: 5px;
   color: #fff;
 
-  -webkit-animation: show-shared 6s linear forwards;
-  -o-animation: show-shared 6s linear forwards;
-  -moz-animation: show-shared 6s linear forwards;
-  animation: show-shared 6s linear forwards;
+  -webkit-animation: show-shared 3s linear forwards;
+  -o-animation: show-shared 3s linear forwards;
+  -moz-animation: show-shared 3s linear forwards;
+  animation: show-shared 3s linear forwards;
 }
 
 #logo {

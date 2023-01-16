@@ -9,16 +9,16 @@ const seo = {
   description:
     "I'm a web developer who's making something amazing and crazy little bit for the world. Even if it's Ctrl+C -> Ctrl+V from StackOverflow",
   og: {
-    title: "Roman Vicyuk Portfolio",
+    title: "Roman Vitsiuk Portfolio",
     type: "website",
-    url: "http://vrgreg.github.io/",
+    url: "https://lancergreg.github.io/vrgreg.github.io/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Roman Vicyuk",
-  logo_name: "RomanVicyuk",
+  title: "Roman Vitsiuk",
+  logo_name: "RomanVitsiuk",
   nickname: "vrgreg",
   subTitle: "Hello there 👋 I'm a web developer who's making something amazing and crazy little bit for the world. Even if it's Ctrl+C -> Ctrl+V from StackOverflow 😁",
   portfolio_repository: "https://github.com/LancerGreg/vrgreg.github.io",
@@ -34,7 +34,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/roman-vicyuk-a0b29a175//",
+    link: "https://www.linkedin.com/in/roman-vitsiuk-a0b29a175/",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
