@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43cde27b27d96e56934e211f0604ea1d",
+    "revision": "23d3aca2f8a77c930ca3c40f57f010f8",
     "url": "/vrgreg.github.io/index.html"
   },
   {
-    "revision": "9a7a39a582367ad467d4",
-    "url": "/vrgreg.github.io/static/css/main.db2f4412.chunk.css"
+    "revision": "566e339bb09068f9cecb",
+    "url": "/vrgreg.github.io/static/css/main.7be2274b.chunk.css"
   },
   {
     "revision": "377eb4904d62a7e0d01f",
     "url": "/vrgreg.github.io/static/js/2.06e8a111.chunk.js"
   },
   {
-    "revision": "9a7a39a582367ad467d4",
-    "url": "/vrgreg.github.io/static/js/main.bb6bac78.chunk.js"
+    "revision": "566e339bb09068f9cecb",
+    "url": "/vrgreg.github.io/static/js/main.d334adcb.chunk.js"
   },
   {
     "revision": "8571a54435deddeafe74",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/vrgreg.github.io/static/css/main.db2f4412.chunk.css",
-    "main.js": "/vrgreg.github.io/static/js/main.bb6bac78.chunk.js",
-    "main.js.map": "/vrgreg.github.io/static/js/main.bb6bac78.chunk.js.map",
+    "main.css": "/vrgreg.github.io/static/css/main.7be2274b.chunk.css",
+    "main.js": "/vrgreg.github.io/static/js/main.d334adcb.chunk.js",
+    "main.js.map": "/vrgreg.github.io/static/js/main.d334adcb.chunk.js.map",
     "runtime-main.js": "/vrgreg.github.io/static/js/runtime-main.ae83177b.js",
     "runtime-main.js.map": "/vrgreg.github.io/static/js/runtime-main.ae83177b.js.map",
     "static/js/2.06e8a111.chunk.js": "/vrgreg.github.io/static/js/2.06e8a111.chunk.js",
     "static/js/2.06e8a111.chunk.js.map": "/vrgreg.github.io/static/js/2.06e8a111.chunk.js.map",
     "index.html": "/vrgreg.github.io/index.html",
-    "precache-manifest.1367a96b1077d42fea39adc885e30fee.js": "/vrgreg.github.io/precache-manifest.1367a96b1077d42fea39adc885e30fee.js",
+    "precache-manifest.eb5ea6611eb6c3737977dee903e8f953.js": "/vrgreg.github.io/precache-manifest.eb5ea6611eb6c3737977dee903e8f953.js",
     "service-worker.js": "/vrgreg.github.io/service-worker.js",
-    "static/css/main.db2f4412.chunk.css.map": "/vrgreg.github.io/static/css/main.db2f4412.chunk.css.map",
+    "static/css/main.7be2274b.chunk.css.map": "/vrgreg.github.io/static/css/main.7be2274b.chunk.css.map",
     "static/media/index.css": "/vrgreg.github.io/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "/vrgreg.github.io/static/media/address_image.16559172.svg",
     "static/media/animated_ashutosh.png": "/vrgreg.github.io/static/media/animated_ashutosh.eaf02c2d.png",
@@ -61,7 +61,7 @@
   "entrypoints": [
     "static/js/runtime-main.ae83177b.js",
     "static/js/2.06e8a111.chunk.js",
-    "static/css/main.db2f4412.chunk.css",
-    "static/js/main.bb6bac78.chunk.js"
+    "static/css/main.7be2274b.chunk.css",
+    "static/js/main.d334adcb.chunk.js"
   ]
 }
