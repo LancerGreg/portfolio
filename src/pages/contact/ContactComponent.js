@@ -44,6 +44,14 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
+                <div className="resume-btn-div">
+                  <Button
+                    text="See My CV"
+                    newTab={true}
+                    href={greeting.resumeLink}
+                    theme={theme}
+                  />
+                </div>
               </div>
             </div>
           </Fade>          

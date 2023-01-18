@@ -23,6 +23,7 @@ const greeting = {
   subTitle: "Hello there 👋 I'm a web developer who's making something amazing and crazy little bit for the world. Even if it's Ctrl+C -> Ctrl+V from StackOverflow 😁",
   portfolio_repository: "https://github.com/LancerGreg/vrgreg.github.io",
   githubProfile: "https://github.com/LancerGreg",
+  resumeLink: "https://drive.google.com/file/d/1tN2y7qI8zcb-DrEFxJs83E0OJfROnxyO/view?usp=sharing",
 };
 
 const socialMediaLinks = [
