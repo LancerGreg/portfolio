@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "vrgreg",
-  "homepage": "https://lancergreg.github.io/portfolio/",
+  "homepage": "https://vrgreg.github.io/portfolio/",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",

@@ -11,7 +11,7 @@ const seo = {
   og: {
     title: "Roman Vitsiuk Portfolio",
     type: "website",
-    url: "https://lancergreg.github.io/vrgreg.github.io/",
+    url: "https://vrgreg.github.io/vrgreg.github.io/",
   },
 };
 
@@ -21,15 +21,15 @@ const greeting = {
   logo_name: "RomanVitsiuk",
   nickname: "vrgreg",
   subTitle: "Hello there 👋 I'm a web developer who's making something amazing and crazy little bit for the world. Even if it's Ctrl+C -> Ctrl+V from StackOverflow 😁",
-  portfolio_repository: "https://github.com/LancerGreg/vrgreg.github.io",
-  githubProfile: "https://github.com/LancerGreg",
+  portfolio_repository: "https://github.com/vrgreg/vrgreg.github.io",
+  githubProfile: "https://github.com/vrgreg",
   resumeLink: "https://drive.google.com/file/d/1tN2y7qI8zcb-DrEFxJs83E0OJfROnxyO/view?usp=sharing",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/LancerGreg",
+    link: "https://github.com/vrgreg",
     fontAwesomeIcon: "fa-github",
     backgroundColor: "#181717",
   },
